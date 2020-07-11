@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Blinkist</title>
+
+
+  <style>
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width:70%;
+  margin-left:15%;
+  position: relative;
+  background:#E6E6FA;;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+</style>
+</head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="img/g1.png" width="40" height="40" style="margin-left:20%;">
+      <span class="navbar-brand mb-0 h1" style="font-size:30px; color:#2F4F4F;"><strong>Blinkist</strong></span>
+      <a href="#" style="text-decoration:none;color:#000000;margin-left:40%;"><strong>Log in </strong> </a>
+   </nav>
+   <div class="row">
+      <div class="col">
+      <h1 style="margin-left:30%;margin-top:15%;display:block;"><strong>Fit learning into your life</strong></h1>
+      <span style="margin-left:30%;margin-top:5%;display:block;"><strong>Blinkist brings you the knowledge from top nonfiction, so you can learn anytime, anywhere.</strong></span>
+      <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="margin-left:35%;margin-top:5%;display:block;width:40%;background:#32CD32;color:#ffffff;"><strong>Start free trial</strong></button>
+      </div>
+      <div class="col">
+      <img src="img/g2.png">
+      </div>
+   </div>
+   
+  <div style="background-color:#E6E6FA;"> 
+   <div class="container">
+    <br><br><h2 style="text-align:center;"><strong>Choose the format that fits your life</strong></h2>
+        <div class="row align-items-center">
+    <div class="col" style="margin-top: 5%;margin-left:10%;">
+      <img src="img/g3.png" style="margin-left:25%;border: 3px solid #ffffff;border-radius:5px;">
+      <h4 style="text-align:center;margin-top:2%;"><strong>Dive into audiobooks</strong></h4>
+      <p style="text-align:center;font-size:20px;">Go deeper into your favorite topics with full-length audiobooks.</p>
+    </div>
+    <div class="col">
+      <div style="width:70%;height:0;padding-bottom:100%;position:relative;"style="margin-left:25%;"><iframe src="https://giphy.com/embed/xT8qBdemIGlrdIEr1S" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen style="margin-left:25%;border: 3px solid #ffffff;border-radius:5px;">
+      </iframe>
+      </div>
+      <h4 style="text-align:center;margin-top:2%;"><strong>Get key insights</strong></h4>
+       <p style="text-align:center;font-size:20px;">Read or listen to the key ideas from bestselling nonfiction titles in 15 minutes.</p>
+    </div>
+    <div class="col" style="margin-top: 5%;">
+      <img src="img/g5.png" style="margin-left:25%;border: 3px solid #ffffff;border-radius:5px;">
+      <h4 style="text-align:center;margin-top:2%;"><strong>Enjoy original content</strong></h4>
+      <p style="text-align:center;font-size:20px;">Discover new perspectives with exclusive shows and podcasts.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+   
+   <div class="container">
+    <br><br><h2 style="text-align:center;"><strong>Curious? Try it for free</strong></h2>
+    <img src="img/g6.png" style="margin-left:5%;border: 3px solid #ffffff;border-radius:5px;">
+       <div class="container"style="background:#87CEEB;margin-top:5%;border-radius:5px;">
+           <div class="col" style="width:50%;display:inline-block;margin-top:3%;">
+           <p style="font-size:20px;">You can try Blinkist for free for 7 days. Don’t worry, if you cancel within the trial period you won’t be charged.</p>
+          </div>
+          <div class="col" style="display:inline-block;">
+           <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="float:right;width:30%;background:#32CD32;color:#ffffff;margin-top:-8%;"><strong>Start free trial</strong></button>
+          </div>
+         </div>
+   </div>
+
+
+  <div style="background-color:#E6E6FA;margin-top:5%;"> 
+   <div class="container">
+     <div class="row">
+    <div class="col">
+      <br><br><h1><strong>Explore leading categories</strong></h1>
+      <br><br><hr style="width:25%;background-color:#32CD32;height:5px;">
+    </div>
+    <div class="col">
+      <br><br><span style="font-size:25px;">From leadership to psychology, we’ve blinked it for you. Benefit from unlimited access to 27 categories:</span>
+    </div>
+  </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <div>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Career & Success
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Society & Culture
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Sex & Relationship
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Science
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Religion
+  </button>
+  </div>
+    <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Personal Development
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Parenting
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Nature & Environment
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Motivation & Inspiration
+  </button>
+  </div>
+  <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Health & Nutrition
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Entrepreneurship
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Education
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Economics
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Creativity
+  </button>
+  </div>
+  
+</div>
+
+<div class="mySlides">
+    <div>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Sex & Relationship
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Science
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Religion & Spritiuality
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Psychology
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Productivity
+  </button>
+  </div>
+    <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Nature & Environment
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Motivation & Inspiration
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Money & Investment
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Mindfulness & Happiness
+  </button>
+  </div>
+  <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Education
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Economics
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Creativity
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Corporate Culture
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Communication Skills
+  </button>
+  </div>
+</div>
+
+<div class="mySlides">
+      <div>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+   Religion & Spritiuality
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+   Psychology
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Productivity
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Politics
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Management & Leadership 
+  </button>
+  </div>
+    <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Money & Investment
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Mindfulness & Happiness
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Marketing & Sales
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Philosophy
+  </button>
+  </div>
+  <div style="margin-top:2%;">
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Education
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Economics
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:15%;">
+  Creativity
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:20%;">
+  Corporate Culture
+  </button>
+  <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" style="display:inline;background:#ffffff;color:blue;width:25%;">
+  Communication Skills
+  </button>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+  <p style="margin-left:25%;font-size:25px;display:inline;"><strong>Top titles in <p style="font-size:25px;color:#32CD32;display:inline;"> Career & Success</strong></p></p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g7.jpg">
+    <div class="card-body">
+      <h5 class="card-title">The 7 Habits of Highly Effective People</h5>
+      <p class="card-text">Stephen R. Covey</p>
+      <p class="card-text"><small class="text-muted">19-minute read       Audio available</small></p>
+    </div>
+  </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g8.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Do What You Are</h5>
+      <p class="card-text">Paul D. Tieger, Barbara...</p>
+      <p class="card-text"><small class="text-muted">18-minute read    Audio available</small></p>
+    </div>
+  </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g9.jpg">
+    <div class="card-body">
+      <h5 class="card-title">The 5 AM Club</h5>
+      <p class="card-text">Robin Sharma</p>
+      <p class="card-text"><small class="text-muted">12-minute read   Audio available</small></p>
+    </div>
+  </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g10.jpg">
+    <div class="card-body">
+      <h5 class="card-title">The Coaching Habit</h5>
+      <p class="card-text">Michael Bungay Stanier</p>
+      <p class="card-text"><small class="text-muted">12-minute read       Audio available</small></p>
+    </div>
+  </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g11.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Make your Bed</h5>
+      <p class="card-text">William H. McRaven</p>
+      <p class="card-text"><small class="text-muted">10-minute read    Audio available</small></p>
+    </div>
+  </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="height:96%;width:80%;">
+    <img class="card-img-top" src="img/g12.jpg">
+    <div class="card-body">
+      <h5 class="card-title">How to Win Friends & Influence People</h5>
+      <p class="card-text">Dale Carnegie</p>
+      <p class="card-text"><small class="text-muted">21-minute read   Audio available</small></p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<div  style="background:#87CEEB; width=100%;">
+<div class="container" style="width:50%;">
+<br><br><h2 style="text-align:center;display:inline;"><strong>Join <h2 style="display:inline;color:blue;"><strong>14 million people</strong> </h2> in learning anywhere, anytime—every day</strong></h2>
+</div>
+<div class="container" style="width:50%;">
+<br><br><p style="text-align:center;font-size:25px;">Become a member of our global community and be a part of the learning revolution.</p>
+<br><br>
+</div>
+</div>
+
+
+
+
+<div  style="background:#E6E6FA; width=100%;">
+<br><br>
+<div class="row">
+  <div class="col">
+  <img src="img/g1.png" width="40" height="40" style="margin-left:30%;">
+  <span class="navbar-brand mb-0 h1" style="font-size:30px; color:#2F4F4F;"><strong>Blinkist</strong></span>
+  <h4 style="margin-left:30%;margin-top:5%;color:blue;"><strong>Big ideas in small packages Start learning now</strong></h4>
+  </div>
+  <div class="col">
+  <ul style="list-style-type:none;margin-left:40%;">
+  <li><strong>Editorial</strong></li>
+  <li>Book lists</li>
+  <li>What is Nonfiction?</li>
+  <li>What to Read Next</li>
+  <li>Benefits of Reading</li>
+  </ul>
+  </div>
+  <div class="col">
+    <ul style="list-style-type:none;margin-left:20%;">
+  <li><strong>Useful Links</strong></li>
+  <li>Pricing</li>
+  <li>Pricing for Teams</li>
+  <li>Gift Cards</li>
+  <li>Blinkist Magazine</li>
+  <li>Contact & Help</li>
+  </ul>
+  </div>
+  <div class="col">
+  <ul style="list-style-type:none;margin-right:30%;">
+  <li><strong>Company</strong></li>
+  <li>About</li>
+  <li>Careers</li>
+  <li>Partners</li>
+  </ul>
+  </div>
+</div>
+<br>
+  <nav aria-label="breadcrumb" style="margin-left:10%;">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Blinkist 2020</a></li>
+    <li class="breadcrumb-item"><a href="#">Sitemap</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Disclaimer</li>
+    <li class="breadcrumb-item"><a href="#">User Privacy</a></li>
+    <li class="breadcrumb-item"><a href="#">Terms</a></li>
+    <li class="breadcrumb-item"><a href="#">Applicant Privacy</a></li>
+  </ol>
+</nav>
+<br><br>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+  </body>
+</html>
